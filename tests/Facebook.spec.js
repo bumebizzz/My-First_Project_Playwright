@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-// const { test, expect } = require('@playwright/test');
 
 test('ผู้ใช้งาน โพส Facebook คำว่า สวัสดี Playwright!', async ({ page }) => {
   //  Step 1 :: go to web facebook.
