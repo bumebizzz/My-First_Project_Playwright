@@ -6,9 +6,9 @@ test('ผู้ใช้งาน โพส Facebook คำว่า สวั�
 
   //  Step 2 :: login web facebook.
   await page.getByTestId('royal_email').click();
-  await page.getByTestId('royal_email').fill('pimchanok@welovebug.biz');
+  await page.getByTestId('royal_email').fill('');
   await page.getByTestId('royal_pass').click();
-  await page.getByTestId('royal_pass').fill('Chichabume555');
+  await page.getByTestId('royal_pass').fill('');
   await page.getByTestId('royal_login_button').click();
 
   //  Step 3 ::  Facebook post with the word สวัสดี Playwright! .
